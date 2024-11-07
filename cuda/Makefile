@@ -56,17 +56,17 @@ test:
 	./run.x gen-plum/data.inp.131072 10
 
 logs:
-	./run.x gen-plum/backup/data.inp.000128 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.000256 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.000512 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.001024 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.002048 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.004096 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.008192 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.016384 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.032768 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.065536 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.131072 16 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.262144  8 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.524288  8 |tee -a /tmp/log.txt
-	./run.x gen-plum/backup/data.inp.1M 4      |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0000128 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0000256 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0000512 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0001024 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0002048 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0004096 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0008192 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0016384 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0032768 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0065536 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0131072 16 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0262144  8 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.0524288  6 |tee -a /tmp/log.txt
+	./run.x gen-plum/data.inp.1048576  4 |tee -a /tmp/log.txt

@@ -134,9 +134,10 @@ int main(int argc,char** argv)
   double nfloat = 38.0 * ((double)ni)*((double)nj) * ((double)nstep);
   double gflops = nfloat * (1.e-9) / tt;
   //  fprintf(stdout, "n=%d\t%g sec/gpucall\t%g Gflops\n", n, tt/(double)nstep, gflops );
-  fprintf(stdout, "n=%d\n", n);
-  fprintf(stdout, "%g sec/gpucall\n", tt/(double)nstep);
-  fprintf(stdout, "%g Gflops\n",  gflops );
+  fprintf(stderr, "n=%d\n", n);
+  fprintf(stderr, "%g sec/gpucall\n", tt/(double)nstep);
+  fprintf(stderr, "%g Gflops\n",  gflops );
+  fprintf(stdout, "%d,\t %g,\t %g\n",  n, tt/(double)nstep, gflops);
 
 
   if(is_check_force){
